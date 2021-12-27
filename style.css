@@ -196,6 +196,7 @@ section {
   -webkit-animation: fadeIn 0.2s linear backwards 0.6s;
           animation: fadeIn 0.2s linear backwards 0.6s;
   border-radius: 50px;
+  background: linear-gradient(#871F1C, #122649);
 }
 .home .slide .content .btn2 {
   display: inline-block;
@@ -212,12 +213,38 @@ section {
 .home .slide .content .btn2:hover {
   letter-spacing: 0.1rem;
 }
-.home .slide .lucifer {
-  margin-top: 240px;
-  margin-left: 24px;
+.home .slide .luci {
+  margin-top: -20px;
+  margin-left: 10px;
 }
-.home .slide .lucifer .btn {
-  background: linear-gradient(#F7B603, #000);
+.home .slide .luci .h-luc {
+  display: block;
+  height: 12rem;
+  width: 35rem;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  -webkit-animation: fadeIn 0.2s linear backwards;
+          animation: fadeIn 0.2s linear backwards;
+}
+.home .slide .luci .span-lu {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  max-width: 400px;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  -webkit-animation: fadeIn 0.2s linear backwards 0.4s;
+          animation: fadeIn 0.2s linear backwards 0.4s;
+}
+.home .slide .luci img {
+  display: block;
+  height: 15rem;
+  width: 35rem;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  -webkit-animation: fadeIn 0.2s linear backwards;
+          animation: fadeIn 0.2s linear backwards;
+}
+.home .slide .luci .btn {
+  background: linear-gradient(#6A0608, #000);
 }
 .home .slide .witcher {
   margin-top: -20px;
@@ -258,7 +285,7 @@ section {
   margin-left: 24px;
 }
 .home .slide .gem .btn {
-  background: linear-gradient(#000, #F96D00);
+  background: linear-gradient(#234F67, #F96D00);
   margin-left: 24px;
 }
 .home .slide .gem .h-gem {
@@ -328,6 +355,9 @@ section {
 }
 .swiper-container .swiper-wrapper .swiper-slide .swiper-button-next {
   margin-left: 50px;
+}
+.swiper-container .swiper-wrapper .swiper-slide .mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
 }
 
 .category .box-container {
@@ -850,7 +880,7 @@ section {
     display: inline-block;
     margin-top: 3rem;
     padding: 1rem 2rem;
-    background: #BB271F;
+    background: linear-gradient(#871F1C, #122649);
     color: #fff;
     font-size: 1.1rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -1109,7 +1139,7 @@ section {
     display: inline-block;
     margin-top: 3rem;
     padding: 1rem 2rem;
-    background: #BB271F;
+    background: linear-gradient(#871F1C, #122649);
     color: #fff;
     font-size: 1.1rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -1271,8 +1301,24 @@ section {
 }
 @media (max-width: 554px) {
   html {
-    font-size: 50%;
+    font-size: 60%;
     overflow: hidden;
+  }
+
+  .btn {
+    background: linear-gradient(#871F1C, #122649);
+  }
+
+  .btn {
+    background: linear-gradient(#871F1C, #122649);
+  }
+
+  .btn {
+    background: linear-gradient(#871F1C, #122649);
+  }
+
+  .btn {
+    background: linear-gradient(#871F1C, #122649);
   }
 
   .home #next-slide, .home #prev-slide {
@@ -1288,31 +1334,31 @@ section {
     right: -0.5rem;
     z-index: 1000;
     text-align: center;
+    display: none;
   }
   .home #next-slide:hover, .home #prev-slide:hover {
     color: #666;
   }
   .home #prev-slide {
-    bottom: 5rem;
-    left: -0.5rem;
+    display: none;
   }
 
   .swiper-container {
     margin-top: -150px;
-    width: 80%;
+    width: 95%;
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 10px;
     overflow: hidden;
   }
   .swiper-container .swiper-wrapper .swiper-slide {
     width: 100px;
-    height: 100px;
+    height: 200px;
   }
   .swiper-container .swiper-wrapper .swiper-slide img {
     display: block;
     width: 100%;
-    height: 60%;
+    height: 70%;
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 0.5rem;
